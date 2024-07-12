@@ -1,0 +1,57 @@
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 25%;
+}
+#btn{
+    width: 30%;
+    height: 7vh;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3%;
+    border-radius: 10px;
+    background-color: #376e78;
+}
+#display{
+    width: 30%;
+    height: 6vh;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: grey;
+}
+.in{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+#btn:active{
+    background-color: grey
+}
+.box{
+    background-color: grey;
+    height: 26vh;
+    width: 35%;
+    border: 2px solid black;
+    margin: 1px;
+    margin-top: 10%;
+    position: relative;
+    animation: mymove 9s infinite;
+}
+@keyframes mymove {
+    from{top:10px;}
+    to{top: 580px;}
+}
+.lift{
+    width: 20%;
+    display: flex;
+}
+.whole{
+    display: flex;
+    margin-left: 4%;
+}
